@@ -1,0 +1,32 @@
+Package: piculator-mu-editor
+Version: 1.0.3+dfsg-2
+Architecture: all
+Maintainer: Piculator Development Team <piculator@protonmail.com>
+Depends: fonts-inconsolata, python3 (>= 3.6), python3-guizero, python3-pyqt5, python3-pyqt5.qsci, python3-pyqt5.qtchart, python3-pyqt5.qtserialport, python3-qtconsole, python3-uflash, python3-appdirs (>= 1.4.3), python3-matplotlib (>= 2.2.2), python3-nudatus, python3-pgzero, python3-pil, python3-pycodestyle (>= 2.4.0), python3-pyflakes (>= 2.0.0), python3-requests, python3-semver (>= 2.0.1), python3-serial (>= 3.4), python3:any
+Suggests: mu-editor-doc, python3-gpiozero, python3-pigpio
+Conflicts: mu-editor
+Replaces: mu-editor
+Section: python
+Priority: optional
+Homepage: https://codewith.mu/
+Description: simple editor for beginner Python programmers
+ **This package was modifed from the original package in rpi's repo to 
+ specially tweak mu-editor to satisfy piculator's special needs.**
+ Mu is a simple code editor for beginner programmers, based on extensive
+ feedback from teachers and learners. Having said that, Mu is for anyone
+ who wants to use a simple "no frills" editor.
+ .
+ Mu is a modal editor with modes for:
+ .
+  * standard Python 3 (including a graphical debugger)
+  * the micro:bit's version of MicroPython
+  * Adafruit's CircuitPython
+  * Pygame Zero
+ .
+ Some modes provide read-eval-print loop (REPL) support, either running on
+ a connected CircuitPython or MicroPython device, or as a Jupyter-based
+ iPython session in Python3 mode.
+ .
+ This package contains the Mu editor. Detailed online user documentation
+ and tutorials for the Mu editor are available from within the editor,
+ or at https://codewith.mu

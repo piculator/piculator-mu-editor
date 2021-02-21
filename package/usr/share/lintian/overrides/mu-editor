@@ -1,0 +1,5 @@
+# mu-editor is sectioned in Python rather than editors
+mu-editor: application-in-library-section python usr/bin/mu-editor
+
+# This is triggered by the Python Egg metadata
+package-contains-documentation-outside-usr-share-doc
