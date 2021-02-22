@@ -88,7 +88,7 @@ class CommandBufferHandler(QObject):
         """
         connected = False
         tries = 0
-        connection_attempts = 50  # Translates to 10 seconds.
+        connection_attempts = 100  # Translates to 10 seconds.
         pause_between_attempts = 0.2
         while not connected:
             try:

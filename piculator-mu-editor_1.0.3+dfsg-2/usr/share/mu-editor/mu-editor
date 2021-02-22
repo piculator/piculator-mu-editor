@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'mu-editor==1.0.3','console_scripts','mu-editor'
+# EASY-INSTALL-ENTRY-SCRIPT: 'mu-editor==1.0.3','console_scripts','piculator-mu-editor'
 import re
 import sys
 
